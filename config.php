@@ -18,4 +18,5 @@ $modules = [ROOT_PATH, CONTROLLER_PATH, MODEL_PATH, VIEW_PATH, CORE_PATH, VIEW_P
 set_include_path(get_include_path() . PATH_SEPARATOR . implode(PATH_SEPARATOR, $modules));
 
 spl_autoload_register('spl_autoload');
+// asddasd
 ?>
